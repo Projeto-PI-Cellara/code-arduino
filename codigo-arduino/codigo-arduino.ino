@@ -35,7 +35,7 @@ void loop() {
   float irradianciaEstimada = luminosidade / FATOR_LUX_POR_WATTS_M2;
 
   // Exibição dos dados no Monitor Serial
-  Serial.print(irradianciaEstimada);
+  Serial.println(irradianciaEstimada);
 
   delay(2000); // Aguarda 2 segundos para a próxima leitura
 }
