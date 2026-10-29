@@ -7,10 +7,10 @@ const int PINO_LDR = A0;
 const float RESISTOR_FIXO = 10000;
 
 // Fator de calibração aproximado:
-// Quando a resistência do LDR for 12000Ω, tem 10 de lux
-const float RESISTENCIA_REF = 12000;  // resistência do LDR quando há 10 lux
+// Quando a resistência do LDR for 18000, tem 10 de lux
+const float RESISTENCIA_REF = 18000;  // resistência do LDR quando há 10 lux
 const float LUMINOSIDADE_REF = 10;   // a luz dessa referência (10 lux)
-const float GAMA = 0.8; // Valor padrão dos sensores VT90N1
+const float GAMA = 0.5; // Valor padrão dos sensores VT90N1
 
 // Em média, 1 W/m² equivale a 120 Lux de referência
 const float FATOR_LUX_POR_WATTS_M2 = 120;
